@@ -4,5 +4,5 @@
     <string name="movie_title_string">movie_title</string>
     <string name="lorem_30_string">Descripcion</string>
     <string name="runtime_ex_string">130 min</string>
-    <string name="rate">130 min</string>
+    <string name="rate_ex_string">nope</string>
 </resources>

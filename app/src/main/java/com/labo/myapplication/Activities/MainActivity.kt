@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     fun initRecyclerView(){
         viewManager = LinearLayoutManager(this)
 
-        movieAdapter = MovieAdapter(movieList, {movieItem: Movie -> movieItemClicked(movieItem)})
+        movieAdapter = MovieAdapter(movieList, { movieItem: Movie -> movieItemClicked(movieItem)})
 
         movie_list_rv.apply{
             setHasFixedSize(true)
