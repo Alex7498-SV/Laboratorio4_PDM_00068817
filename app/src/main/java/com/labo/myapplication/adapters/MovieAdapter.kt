@@ -46,4 +46,5 @@ class MovieAdapter(var movies: List<Movie>, val clickListener:(Movie) -> Unit): 
 
     }
 
+
 }
